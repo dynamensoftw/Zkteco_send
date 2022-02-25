@@ -1,0 +1,13 @@
+{
+    "name": "dynamensoftw/ZKTeco_send",
+    "description": "Zkteco envio de asistencia a remote server",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Jhoan Martinez",
+        "email": "admin@dynamensoftw.com"
+      }
+    ],
+    "version": "1.0",
+    "license": "MIT"
+  }
