@@ -1,5 +1,5 @@
 {
-    "name": "dynamensoftw/ZKTeco_send",
+    "name": "dynamensoftw/zkteco_send",
     "description": "Zkteco envio de asistencia a remote server",
     "type": "library",
     "authors": [
@@ -9,5 +9,10 @@
       }
     ],
     "version": "1.0",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "dynamensoftw\\zkteco_send\\": "src/"
+        }
+      }
   }
