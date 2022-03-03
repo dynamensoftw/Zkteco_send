@@ -1,0 +1,80 @@
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977949
+fecha_registro: 2022-03-01 15:19:43
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977949
+fecha_registro: 2022-03-01 16:10:53
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977948
+fecha_registro: 2022-03-01 16:28:34
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977948
+fecha_registro: 2022-03-01 16:54:18
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 157911
+fecha_registro: 2022-03-01 17:02:55
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977949
+fecha_registro: 2022-03-01 17:03:47
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977949
+fecha_registro: 2022-03-01 18:17:42
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 10239779482
+fecha_registro: 2022-03-01 18:18:06
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977949
+fecha_registro: 2022-03-02 18:23:32
+///////////////////////
+
+dispositivo: K50
+serial: OCO6073746063000459
+sede: ALAMOS
+tiempo_sincronizacion: 2022-03-02_18:36:59
+id_usuario: 1023977948
+fecha_registro: 2022-03-02 18:23:33
+///////////////////////

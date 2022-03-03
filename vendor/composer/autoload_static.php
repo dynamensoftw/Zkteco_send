@@ -6,10 +6,22 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit888a067bbb86e06ae16daee34894a800
 {
+    public static $files = array (
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'd' => 
         array (
             'dynamensoftw\\zkteco_send\\' => 25,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Component\\Dotenv\\' => 25,
+        ),
+        'D' => 
+        array (
+            'Dnsw\\Helpers\\' => 13,
         ),
     );
 
@@ -17,6 +29,14 @@ class ComposerStaticInit888a067bbb86e06ae16daee34894a800
         'dynamensoftw\\zkteco_send\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Symfony\\Component\\Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dotenv',
+        ),
+        'Dnsw\\Helpers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/dnsw/helpers',
         ),
     );
 

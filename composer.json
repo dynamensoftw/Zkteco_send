@@ -12,7 +12,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-          "dynamensoftw\\zkteco_send\\": "src/"
+          "dynamensoftw\\zkteco_send\\": "src/",
+          "Dnsw\\Helpers\\": "src/dnsw/helpers/"
         }
-      }
-  }
+      },
+    "require": {
+        "symfony/dotenv": "^5.4"
+    }
+}

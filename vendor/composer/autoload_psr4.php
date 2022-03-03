@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'dynamensoftw\\zkteco_send\\' => array($baseDir . '/src'),
+    'Symfony\\Component\\Dotenv\\' => array($vendorDir . '/symfony/dotenv'),
+    'Dnsw\\Helpers\\' => array($baseDir . '/src/dnsw/helpers'),
 );

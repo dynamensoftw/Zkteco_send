@@ -1,5 +1,6 @@
 <?php
 //error_reporting(0);
+namespace Dnsw\Helpers;
 
 define('CMD_CONNECT', 1000);
 define('CMD_EXIT', 1001);
@@ -1141,6 +1142,7 @@ class ZKLibrary {
 	        $u = unpack('H2h1/H2h2/H2h3/H2h4/H2h5/H2h6/H2h7/H2h8', substr($this->received_data, $this->start_data, 8));
 	        $reply_id = hexdec($u['h8'] . $u['h7']);
 	        $comando = hexdec($u['h2'] . $u['h1']);
+		
 
 	        if ($comando == CMD_ACK_OK) {
 	            $u = unpack('H2h1/H2h2/H2h3/H2h4', substr($this->received_data, 17, 4));
@@ -1149,7 +1151,6 @@ class ZKLibrary {
 	            $u = unpack('H2h1/H2h2/H2h3/H2h4', substr($this->received_data, 16, 4));
 	            $size = hexdec($u['h4'] . $u['h3'] . $u['h2'] . $u['h1']);
 	        }
-
 	        if ($size > 1024) {
 	            $buf = $this->createHeader(1504, $chksum, $session_id, $reply_id, pack('LL', 0, $size));
 	            $this->send($buf);
@@ -1221,8 +1222,7 @@ class ZKLibrary {
 
 	                $sizerecibido = 0;
 
-	                array_push($this->attendance_data, substr($this->received_data, 8));
-
+	                array_push($this->attendance_data, substr($this->received_data,8));
 	                if ($size > 0) {
 	                    $u = unpack('H' . (strlen($this->received_data) * 2), substr($this->received_data, 0));
 	                    $size -= strlen($this->received_data);
@@ -1288,7 +1288,8 @@ class ZKLibrary {
 					$u1 = hexdec(substr($u[1], 4, 2));
 					$u2 = hexdec(substr($u[1], 6, 2));
 					$uid = $u1+($u2*256);
-					$id = str_replace("\0", '', hex2bin(substr($u[1], 8, 16)));
+					//Modificación propia para tomar el maximo para número de identificación
+					$id = str_replace("\0", '', hex2bin(substr($u[1], 8, -2)));
 					$state = hexdec(substr( $u[1], 56, 2 ) );
 					$timestamp = $this->decodeTime(hexdec($this->reverseHex(substr($u[1], 58, 8))));
 					array_push($attendance, array($uid, $id, $state, $timestamp));
